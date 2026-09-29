@@ -1,0 +1,11 @@
+services:
+  sftp:
+    image: atmoz/sftp:latest
+
+    ports:
+      - "2222:22"
+
+    volumes:
+      - ./sftp-server/data:/home/${SFTP_USERNAME}/data
+
+    command: ${SFTP_USERNAME}:${SFTP_PASSWORD}:::${SFTP_REMOTE_DIR}

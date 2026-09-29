@@ -1,0 +1,4 @@
+psycopg[binary]
+paramiko
+python-dotenv
+pytest

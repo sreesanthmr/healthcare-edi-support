@@ -1,0 +1,37 @@
+{
+    "carrier_name": "XYZ Health",
+    "transaction_type": "834",
+
+    "mapping": {
+        "member_id": {
+            "segment": "NM1",
+            "element": 8
+        },
+        "first_name": {
+            "segment": "NM1",
+            "element": 5
+        },
+        "last_name": {
+            "segment": "NM1",
+            "element": 4
+        },
+        "date_of_birth": {
+            "segment": "DMG",
+            "element": 2
+        },
+        "gender": {
+            "segment": "DMG",
+            "element": 3
+        },
+        "health_plan": {
+            "segment": "HD",
+            "element": 4
+        },
+        "effective_date": {
+            "segment": "DTP",
+            "element": 3,
+            "qualifier_element": 1,
+            "qualifier_value": "348"
+        }
+    }
+}

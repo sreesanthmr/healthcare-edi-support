@@ -1,0 +1,19 @@
+{
+    "carriers": {
+        "abc": {
+            "name": "ABC Health",
+            "config": "config/carrier_abc.json",
+            "remote_incoming": "data/abc/incoming",
+            "remote_archive": "data/abc/archive",
+            "remote_errors": "data/abc/errors"
+        },
+
+        "xyz": {
+            "name": "XYZ Health",
+            "config": "config/carrier_xyz.json",
+            "remote_incoming": "data/xyz/incoming",
+            "remote_archive": "data/xyz/archive",
+            "remote_errors": "data/xyz/errors"
+        }
+    }
+}
